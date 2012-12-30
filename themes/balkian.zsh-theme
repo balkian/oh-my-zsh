@@ -41,7 +41,7 @@ ZSH_THEME_GIT_PROMPT_SHA_BEFORE=" %{$WHITE%}[%{$YELLOW%}"
 ZSH_THEME_GIT_PROMPT_SHA_AFTER="%{$WHITE%}]"
 
 # Skull smiley
-local smiley="%B%(?,%{$GREEN_BOLD%}☠%{$reset_color%},%{$RED_BOLD%}☠%{$reset_color%})%b"
+local smiley="%B%(?,%{$GREEN%}☠%{$reset_color%},%{$RED_BOLD%}☠%{$reset_color%})%b"
 
 # Prompt format
 PROMPT='%n@%m:%{$YELLOW_BOLD%}%~%u$(parse_git_dirty)$(git_prompt_ahead)%{$RESET_COLOR%}
