@@ -45,5 +45,5 @@ local smiley="%B%(?,%{$GREEN%}☠%{$reset_color%},%{$RED_BOLD%}☠%{$reset_color
 
 # Prompt format
 PROMPT='%n@%m:%{$YELLOW_BOLD%}%~%u$(parse_git_dirty)$(git_prompt_ahead)%{$RESET_COLOR%}
-$smiley $(vi_mode_prompt_info )'
+$smiley '
 RPROMPT='%{$GREEN_BOLD%}$(current_branch)$(git_prompt_short_sha)$(git_prompt_status)%{$RESET_COLOR%} %T'
